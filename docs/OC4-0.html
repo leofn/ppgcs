@@ -1,0 +1,195 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Relatório de Pordutividade - Prof Permanente do PPGCS - 2017-2021</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Relatório de Pordutividade - Prof Permanente do PPGCS - 2017-2021</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Trabalho de conclusão de curso de graduação'}, 
+series: [{data: [[2017,
+10],
+[2018,
+4],
+[2019,
+4],
+[2020,
+2]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Trabalho de conclusão de curso de graduação</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 20<br>
+                    
+                    
+                    <div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Geíse Barros Queiroz. <b>A 'Mãezona' do Nordeste de Amaralina</b>. (Graduação em Ciências Sociais) - Universidade Federal da Bahia, . 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3077741187299322">Ricardo Pagliuso Regatieri</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Rodrigo Anjos de Andrade e Silva. <b>Percursos e Interlocuções na Atlantic Beach - Uma ocupação do Movimento Sem Teto de Salvador</b>. (Graduação em Ciências Sociais) - Universidade Federal da Bahia, PIBIC (UFBA) CNPq. 2020.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2408407341179334">Maria Gabriela Hita</a>.</font></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>IARA MARIA DE ALMEIDA SOUZA. <b>Aves de Rapina em contextos intrafamiliares: domesticação e relações de afeto</b>. (Graduação em Abi - Ciências Sociais) - Universidade Federal da Bahia, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1266626414413147">Iara Maria de Almeida Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Maiara Maria de Jesus Santos. <b>Economia Solidaria</b>. (Graduação em Bacharelado Em Ciências Sociais) - Universidade Federal da Bahia, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2408407341179334">Maria Gabriela Hita</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Saryta Rhayne Aquino Cruz. <b>?[O QUE] A TUA LUCIDEZ NÃO TE DEIXA VER?: REPRESENTAÇÕES DA LOUCURA EM ESTAMIRA</b>. (Graduação em Abi - Ciências Sociais) - Universidade Federal da Bahia, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4868229187967997">Antonio da Silva Camara</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Walter Costa Neto. <b>Veganismo periférico: um estudo de caso em escolas públicas na cidade de Salvador (BA)</b>. (Graduação em Biologia) - Universidade Federal da Bahia, . 2019.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/3127018651955270">Luiz Enrique Vieira de Souza</a>.</font></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Denairam Malafaia Coelho. <b>Programas de habitação e regularização fundiária: Estudo de caso sobre o Programa Casa Legal no Bairro da Paz.</b>. (Graduação em Ciências Sociais) - Universidade Federal da Bahia, Pibic Ufba. 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2408407341179334">Maria Gabriela Hita</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Fernando Santos da Silva. <b>A construção e a reconstrução da morte como homicídio no Tribunal do Juri: a mobilização da legitima defesa em processos envolvendo policiais militares em Salvador - BA</b>. (Graduação em Direito) - Universidade Federal da Bahia, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7470966694138044">Mariana Thorstensen Possas</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>João Ricardo de Azevedo. <b>O sentido da violência no cotidiando de jovens estudantes em Paripe</b>. (Graduação em Ciências Sociais) - Universidade Federal da Bahia, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2408407341179334">Maria Gabriela Hita</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Lázaro Vinicius Amorim Silva. <b>?Saúde é luta?: as vozes do Conjunto Penal Feminino de Salvador, Bahia</b>. (Graduação em Medicina) - Universidade Federal da Bahia, . 2018.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9249653080596163">Luiz Claudio Lourenço</a>.</font></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Alana Souza Lins. <b>A construção da reforma agrária: a experiência do acampamento Recanto da Paz no Recôncavo Baiano</b>. (Graduação em Abi - Ciências Sociais) - Universidade Federal da Bahia, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/4868229187967997">Antonio da Silva Camara</a>.</font></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Cassio Santos. <b>O culto de Babá Egun</b>. (Graduação em Abi - Ciências Sociais) - Universidade Federal da Bahia, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239267596119717">Miriam Cristina Marcilio Rabelo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>Claudia Albagli Nogueira. <b>As audiências públicas do PDDU Salvador: um estudo da eficácia democrática à luz dos atores do processo</b>. (Graduação em Bacharelado Em Ciências Sociais) - Universidade Federal da Bahia, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5464609877208121">Paulo Fábio Dantas Neto</a>.</font></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>Jackeline da Silva Jeronimo de Souza. <b>Modelo animal na literatura científica e na prática do biotério</b>. (Graduação em Abi - Ciências Sociais) - Universidade Federal da Bahia, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1266626414413147">Iara Maria de Almeida Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>Jose Adailton Santos. <b>A Vida no biotério: a relação entre técnicos e animais</b>. (Graduação em Abi - Ciências Sociais) - Universidade Federal da Bahia, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/1266626414413147">Iara Maria de Almeida Souza</a>.</font></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>Leise Helena Filgueiras. <b>MOVIMENTO SINDICAL E JUVENTUDE: UMA ANÁLISE DOS DOCUMENTOS DA SECRETARIA DE JUVENTUDE DA CUT</b>. (Graduação em Ciências Sociais (Bacharel)) - Universidade Federal da Bahia, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7967150503062793">Jair Batista da Silva</a>.</font></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>Rafael Augusto Machado Serra. <b>LIBERALISMOS NO BRASIL: JOSÉ OSVALDO DE MEIRA PENNA E JOSÉ GUILHERME DE MERQUIOR</b>. (Graduação em Bacharelado Em Ciências Sociais) - Universidade Federal da Bahia, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/5464609877208121">Paulo Fábio Dantas Neto</a>.</font></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>Robelle Silva Damasceno. <b>Só eu sei o que passei: experiências abortivas entre mulheres negras de Salvador</b>. (Graduação em Abi - Ciências Sociais) - Universidade Federal da Bahia, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/7239267596119717">Miriam Cristina Marcilio Rabelo</a>.</font></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Sâmia Gomes de Araújo. <b>Trabalhadores terceirizados na Universidade Federal da Bahia</b>. (Graduação em Ciências Sociais) - Universidade Federal da Bahia, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/2748515666391074">Maria da Graça Druck de Faria</a>.</font></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>Thiago Reis Oliveira Guimarães. <b>Jogo das cadei(r)as: entre as grades, palavras e sujeitos</b>. (Graduação em Direito) - Universidade Federal da Bahia, . 2017.<br><i><font size=-1>Orientador: <a href="http://lattes.cnpq.br/9249653080596163">Luiz Claudio Lourenço</a>.</font></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2017 até 2021
+<br>Data de processamento: 29/03/2021 11:05:57<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:leofn3@gmail.com">leofn3@gmail.com</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

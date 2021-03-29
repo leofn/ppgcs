@@ -1,0 +1,209 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Relatório de Pordutividade - Prof Permanente do PPGCS - 2017-2021</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Relatório de Pordutividade - Prof Permanente do PPGCS - 2017-2021</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Demais tipos de produção técnica'}, 
+series: [{data: [[2017,
+8],
+[2018,
+7],
+[2019,
+5],
+[2020,
+6]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Demais tipos de produção técnica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 27<br>
+                    
+                    
+                    <div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BOGUS, L. ; GUIMARÃES, IRACEMA BRANDÃO ; PESSOA, Z. S.. <b>CIDADES BRASILEIRAS: TEMAS E QUESTÕES PARA DEBATE</b>. 2020. Editoração/Livro<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=CIDADES+BRASILEIRAS:+TEMAS+E+QUESTÕES+PARA+DEBATE">busca Google</a> |            <a href="http://www.bing.com/search?q=CIDADES+BRASILEIRAS:+TEMAS+E+QUESTÕES+PARA+DEBATE">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CERQUEIRA, D. ; PERES, M. F. T. ; COSTA, A. T. M. ; POSSAS, M. T. ; LOURENCO, L. C. ; REBOUCAS, A. C.. <b>O problema dos homicídios na Bahia</b>. 2020. Debate sobre pesquisas realizadas em torno do tema<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=O+problema+dos+homicídios+na+Bahia">busca Google</a> |            <a href="http://www.bing.com/search?q=O+problema+dos+homicídios+na+Bahia">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>GLEDHILL, J. ; HITA, MARIA GABRIELA ; PERELMAN, M. D.. <b>Disputas em torno do espaço urbano : processos de [re]produção/construção e apropriação da cidade</b>. 2020. Editoração/Coletânea<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Disputas+em+torno+do+espaço+urbano+:+processos+de+[re]produção/construção+e+apropriação+da+cidade">busca Google</a> |            <a href="http://www.bing.com/search?q=Disputas+em+torno+do+espaço+urbano+:+processos+de+[re]produção/construção+e+apropriação+da+cidade">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GUIMARÃES, IRACEMA BRANDÃO. <b>Caderno CRH, v. 33, 2020</b>. 2020. Editoração/Periódico<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Caderno+CRH,+v.+33,+2020">busca Google</a> |            <a href="http://www.bing.com/search?q=Caderno+CRH,+v.+33,+2020">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>IVO, ANETE B.L.; KRAYCHETE, E. ; VITALE, Denise ; MERCURI, C. ; BORGES, A. ; SENES, Stella. <b>Dicionário Temático Desenvolvimento e Questão Social. 110 problemáticas contemporâneas</b>. 2020. Editoração/Enciclopédia<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Dicionário+Temático+Desenvolvimento+e+Questão+Social.+110+problemáticas+contemporâneas">busca Google</a> |            <a href="http://www.bing.com/search?q=Dicionário+Temático+Desenvolvimento+e+Questão+Social.+110+problemáticas+contemporâneas">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>PERES, M. F. T. ; POSSAS, M. T. ; REGINA, F. L. ; REBOUCAS, A. C. ; OLIVEIRA, C. F. S. ; SOUZA, M.. <b>Relatório Final</b>. 2020. Relatório de pesquisa<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Relatório+Final">busca Google</a> |            <a href="http://www.bing.com/search?q=Relatório+Final">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ALVES, PAULO CÉSAR. <b>Narrativas e Itinerários Terapêuticos</b>. 2019. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Narrativas+e+Itinerários+Terapêuticos">busca Google</a> |            <a href="http://www.bing.com/search?q=Narrativas+e+Itinerários+Terapêuticos">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CIMADAMORE, A. ; IVO, ANETE B.L. ; MIDAGLIA, C. ; BARRANTES, A.. <b>Estados de Bien Estar, Derechos e Ingresos Basicos en America Latina- organização de livro</b>. 2019. Editoração/Livro<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Estados+de+Bien+Estar,+Derechos+e+Ingresos+Basicos+en+America+Latina-+organização+de+livro">busca Google</a> |            <a href="http://www.bing.com/search?q=Estados+de+Bien+Estar,+Derechos+e+Ingresos+Basicos+en+America+Latina-+organização+de+livro">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>GUIMARAES, I. B.; BOGUS, L. M. M. ; PESSOA, Z. S.. <b>GT05 ? Cidades no Século XXI - 19º Congresso da Sociedade Brasileira de Sociologia</b>. 2019. Coordenação do Grupo de Trabalho<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=GT05+?+Cidades+no+Século+XXI+-+19º+Congresso+da+Sociedade+Brasileira+de+Sociologia">busca Google</a> |            <a href="http://www.bing.com/search?q=GT05+?+Cidades+no+Século+XXI+-+19º+Congresso+da+Sociedade+Brasileira+de+Sociologia">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GUIMARÃES, IRACEMA BRANDÃO. <b>2º Vice Presidente da Sociedade Brasileira de Sociologia (Gestão 2019-2021). 2019. (Membro de</b>. 2019. Membro de Diretoria (Gestão 2019-2021<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=2º+Vice+Presidente+da+Sociedade+Brasileira+de+Sociologia+(Gestão+2019-2021).+2019.+(Membro+de">busca Google</a> |            <a href="http://www.bing.com/search?q=2º+Vice+Presidente+da+Sociedade+Brasileira+de+Sociologia+(Gestão+2019-2021).+2019.+(Membro+de">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>NASCIMENTO, LEONARDO FERNANDES. <b>Introdução à análise de dados qualitativos com o ATLAS.ti 8.0</b>. 2019. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Introdução+à+análise+de+dados+qualitativos+com+o+ATLAS.ti+8.0">busca Google</a> |            <a href="http://www.bing.com/search?q=Introdução+à+análise+de+dados+qualitativos+com+o+ATLAS.ti+8.0">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARVALHO, I. M. M. ; PEREIRA, G. C. ; DELGADO, J. P. M. ; FERNANDES, C. M. ; ARANTES, Rafael de Aguiar ; PEREIRA, CARLA GALVÃO ; SANTOS, G. G.. <b>Relatório preliminar de pesquisa - INCT Observatório das Metrópoles - Núcleo Salvador</b>. 2018. Relatório de pesquisa<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Relatório+preliminar+de+pesquisa+-+INCT+Observatório+das+Metrópoles+-+Núcleo+Salvador">busca Google</a> |            <a href="http://www.bing.com/search?q=Relatório+preliminar+de+pesquisa+-+INCT+Observatório+das+Metrópoles+-+Núcleo+Salvador">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>Gledhiil, J. ; HITA, M. G.. <b>Dossiê: Atores em disputas urbanas</b>. 2018. Editoração/Periódico<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Dossiê:+Atores+em+disputas+urbanas">busca Google</a> |            <a href="http://www.bing.com/search?q=Dossiê:+Atores+em+disputas+urbanas">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>HITA, MARIA GABRIELA. <b>Relatório Final de pesquisa PQ-CNPQ (2016-2019): Transformações da Cidade de Salvador por obras de mobilidade urbana</b>. 2018. Relatório de pesquisa<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Relatório+Final+de+pesquisa+PQ-CNPQ+(2016-2019):+Transformações+da+Cidade+de+Salvador+por+obras+de+mobilidade+urbana">busca Google</a> |            <a href="http://www.bing.com/search?q=Relatório+Final+de+pesquisa+PQ-CNPQ+(2016-2019):+Transformações+da+Cidade+de+Salvador+por+obras+de+mobilidade+urbana">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IVO, Anete B. L. <b>Desenvolvimento: produção sociológica e politica</b>. 2018. Relatório de pesquisa<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Desenvolvimento:+produção+sociológica+e+politica">busca Google</a> |            <a href="http://www.bing.com/search?q=Desenvolvimento:+produção+sociológica+e+politica">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>NASCIMENTO, L. F. <b>Workshop Análise de Dados com ATLAS.ti 8</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Workshop+Análise+de+Dados+com+ATLAS.ti+8">busca Google</a> |            <a href="http://www.bing.com/search?q=Workshop+Análise+de+Dados+com+ATLAS.ti+8">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>NASCIMENTO, LEONARDO FERNANDES. <b>Análise Qualitativa de Dados através do ATLAS.ti</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Análise+Qualitativa+de+Dados+através+do+ATLAS.ti">busca Google</a> |            <a href="http://www.bing.com/search?q=Análise+Qualitativa+de+Dados+através+do+ATLAS.ti">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>NASCIMENTO, LEONARDO FERNANDES. <b>Análise Qualitativa de Dados através do ATLAS.ti (segunda parte)</b>. 2018. Curso de curta duração ministrado/Outra<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Análise+Qualitativa+de+Dados+através+do+ATLAS.ti+(segunda+parte)">busca Google</a> |            <a href="http://www.bing.com/search?q=Análise+Qualitativa+de+Dados+através+do+ATLAS.ti+(segunda+parte)">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GLEDHILLL, J. ; HITA, M. G. ; PERELMAN, M. D.. <b>Disputas em torno do Espaço urbano: Processos de Reprodução/ Construção e apropriação da cidade</b>. 2017. Editoração/Livro<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Disputas+em+torno+do+Espaço+urbano:+Processos+de+Reprodução/+Construção+e+apropriação+da+cidade">busca Google</a> |            <a href="http://www.bing.com/search?q=Disputas+em+torno+do+Espaço+urbano:+Processos+de+Reprodução/+Construção+e+apropriação+da+cidade">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>GUIMARAES, I. B. <b>Caderno CRH - DOSSIÊ: TRABALHO: NOVOS E VELHOS CONTEXTOS</b>. 2017. Editoração/Periódico<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Caderno+CRH+-+DOSSIÊ:+TRABALHO:+NOVOS+E+VELHOS+CONTEXTOS">busca Google</a> |            <a href="http://www.bing.com/search?q=Caderno+CRH+-+DOSSIÊ:+TRABALHO:+NOVOS+E+VELHOS+CONTEXTOS">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>GUIMARAES, I. B. <b>Dinâmicas urbanas e mudanças nas práticas familiares e comunitárias</b>. 2017. Relatório de pesquisa<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Dinâmicas+urbanas+e+mudanças+nas+práticas+familiares+e+comunitárias">busca Google</a> |            <a href="http://www.bing.com/search?q=Dinâmicas+urbanas+e+mudanças+nas+práticas+familiares+e+comunitárias">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GUIMARAES, I. B. <b>Congresso da UFBA</b>. 2017. Coordenação do Grupo de Trabalho Sociologia e Economia<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Congresso+da+UFBA">busca Google</a> |            <a href="http://www.bing.com/search?q=Congresso+da+UFBA">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>HITA, M. G. <b>Raça, racismo e genética: em debates cientificos e controvérsias sociais</b>. 2017. Editoração/Livro<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Raça,+racismo+e+genética:+em+debates+cientificos+e+controvérsias+sociais">busca Google</a> |            <a href="http://www.bing.com/search?q=Raça,+racismo+e+genética:+em+debates+cientificos+e+controvérsias+sociais">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>NASCIMENTO, L. F. <b>Curso de Análise Qualitativa de Dados através do ATLAS.ti</b>. 2017. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Curso+de+Análise+Qualitativa+de+Dados+através+do+ATLAS.ti">busca Google</a> |            <a href="http://www.bing.com/search?q=Curso+de+Análise+Qualitativa+de+Dados+através+do+ATLAS.ti">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>NASCIMENTO, LEONARDO FERNANDES. <b>Oficina Webscraping em R</b>. 2017. Curso de curta duração ministrado/Extensão<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Oficina+Webscraping+em+R">busca Google</a> |            <a href="http://www.bing.com/search?q=Oficina+Webscraping+em+R">busca Bing</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>TAROUCO, G. S. ; DANTAS NETO, P. F.. <b>Organização de Dossiê Temático: ELITES, PARTIDOS E COMPETIÇÃO POLÍTICA: BRASIL E ARGENTINA</b>. 2017. Editoração/Periódico<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=Organização+de+Dossiê+Temático:+ELITES,+PARTIDOS+E+COMPETIÇÃO+POLÍTICA:+BRASIL+E+ARGENTINA">busca Google</a> |            <a href="http://www.bing.com/search?q=Organização+de+Dossiê+Temático:+ELITES,+PARTIDOS+E+COMPETIÇÃO+POLÍTICA:+BRASIL+E+ARGENTINA">busca Bing</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-*itens sem ano"><h3 class="year">*itens sem ano</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>PAES-MACHADO. Teorias do Policiamento, Modelos de Policiamento e Cultura Policia. <b>2005</b>. 0. Curso de curta duração ministrado/Especialização<br>         <font size=-1>          [ <a href="http://www.google.com/search?btnG=Google+Search&q=2005">busca Google</a> |            <a href="http://www.bing.com/search?q=2005">busca Bing</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2017 até 2021
+<br>Data de processamento: 29/03/2021 11:05:57<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:leofn3@gmail.com">leofn3@gmail.com</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

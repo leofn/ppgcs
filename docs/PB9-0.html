@@ -1,0 +1,253 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Relatório de Pordutividade - Prof Permanente do PPGCS - 2017-2021</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Relatório de Pordutividade - Prof Permanente do PPGCS - 2017-2021</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Demais tipos de produção bibliográfica'}, 
+series: [{data: [[2017,
+7],
+[2018,
+18],
+[2019,
+9],
+[2020,
+13],
+[2021,
+1]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Demais tipos de produção bibliográfica</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 48<br>
+                    
+                    
+                    <div id="dv-year-2021"><h3 class="year">2021</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>PEREIRA, CARLA GALVÃO ; SOUZA, Cláudio André ; ARANTES, Rafael de Aguiar. <b>O enfrentamento à pandemia: coordenação e conflitos políticos baiano-nacionais</b>. 2021. Publicação em site de associação científica - Associação Brasileira de Ciência Política<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+enfrentamento+à+pandemia:+coordenação+e+conflitos+políticos+baiano-nacionais&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+enfrentamento+à+pandemia:+coordenação+e+conflitos+políticos+baiano-nacionais">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+enfrentamento+à+pandemia:+coordenação+e+conflitos+políticos+baiano-nacionais">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARANTES, Rafael de Aguiar; PEREIRA, CARLA GALVÃO ; SOUZA, Cláudio André. <b>Bahia: desafios sanitários e políticos da reabertura</b>. 2020. Publicação em site de associação científica - Associação Brasileira de Ciência Política<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Bahia:+desafios+sanitários+e+políticos+da+reabertura&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Bahia:+desafios+sanitários+e+políticos+da+reabertura">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Bahia:+desafios+sanitários+e+políticos+da+reabertura">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ARANTES, Rafael de Aguiar; PEREIRA, CARLA GALVÃO ; SOUZA, Cláudio André. <b>Bahia: novos conflitos e tensões na governança do enfrentamento à Covid-19 e na definição das medidas de flexibilização da quarentena</b>. 2020. Publicação em site de associação científica - Associação Brasileira de Ciência Política<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Bahia:+novos+conflitos+e+tensões+na+governança+do+enfrentamento+à+Covid-19+e+na+definição+das+medidas+de+flexibilização+da+quarentena&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Bahia:+novos+conflitos+e+tensões+na+governança+do+enfrentamento+à+Covid-19+e+na+definição+das+medidas+de+flexibilização+da+quarentena">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Bahia:+novos+conflitos+e+tensões+na+governança+do+enfrentamento+à+Covid-19+e+na+definição+das+medidas+de+flexibilização+da+quarentena">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CAPINAN, U. ; CARVALHO, M. R. G.. <b>Prefácio. Salvador</b>. 2020. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Prefácio.+Salvador&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Prefácio.+Salvador">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Prefácio.+Salvador">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>DRUCK, M. G.; LEMOS, D. V. S. ; FILGUEIRAS, L.. <b>Universidade, Democracia e combate ao neofascismo neoliberal. Salvador: ESCOLA DE ADMINISTRAÇÃO/NEA FACULDADE DE FILOSOFIA E CIÊNCIAS HUMANAS/CRH FÓRUM DE PÓS-OCUPAÇÃO DA H</b>. 2020. Caderno de Extensão MOVIMENTO POPULAR E DIREITO À CIDADE: uma abordagem formativa<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Universidade,+Democracia+e+combate+ao+neofascismo+neoliberal.+Salvador:+ESCOLA+DE+ADMINISTRAÇÃO/NEA+FACULDADE+DE+FILOSOFIA+E+CIÊNCIAS+HUMANAS/CRH+FÓRUM+DE+PÓS-OCUPAÇÃO+DA+H&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Universidade,+Democracia+e+combate+ao+neofascismo+neoliberal.+Salvador:+ESCOLA+DE+ADMINISTRAÇÃO/NEA+FACULDADE+DE+FILOSOFIA+E+CIÊNCIAS+HUMANAS/CRH+FÓRUM+DE+PÓS-OCUPAÇÃO+DA+H">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Universidade,+Democracia+e+combate+ao+neofascismo+neoliberal.+Salvador:+ESCOLA+DE+ADMINISTRAÇÃO/NEA+FACULDADE+DE+FILOSOFIA+E+CIÊNCIAS+HUMANAS/CRH+FÓRUM+DE+PÓS-OCUPAÇÃO+DA+H">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>FIORMONTE, D. ; NASCIMENTO, LEONARDO FERNANDES ; BRASIL, E.. <b>Por que a universidade de plataforma é o fim da universidade. Roma: INFOLET</b>. 2020. Tradução/Outra<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Por+que+a+universidade+de+plataforma+é+o+fim+da+universidade.+Roma:+INFOLET&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Por+que+a+universidade+de+plataforma+é+o+fim+da+universidade.+Roma:+INFOLET">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Por+que+a+universidade+de+plataforma+é+o+fim+da+universidade.+Roma:+INFOLET">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GUIMARÃES, IRACEMA BRANDÃO. <b>Caderno CRH, v. 33, 2020. Salvador: CRH/EDUFBA</b>. 2020. Edição de Revista<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Caderno+CRH,+v.+33,+2020.+Salvador:+CRH/EDUFBA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Caderno+CRH,+v.+33,+2020.+Salvador:+CRH/EDUFBA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Caderno+CRH,+v.+33,+2020.+Salvador:+CRH/EDUFBA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GUIMARÃES, IRACEMA BRANDÃO. <b>NO CURSO DAS MUDANÇAS. Salvador</b>. 2020. Prefácio, Pósfacio/Apresentação<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=NO+CURSO+DAS+MUDANÇAS.+Salvador&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=NO+CURSO+DAS+MUDANÇAS.+Salvador">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=NO+CURSO+DAS+MUDANÇAS.+Salvador">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IVO, Anete B.L. <b>Sociólogos e Sociólogas Brasileiras- bionota sobre Guaraci Adeodato Alves de Souza - Projeto SBS Memória. São Paulo: Sociedade Brasileira de Sociologia</b>. 2020. Memoria da Sociologia Brasileira<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Sociólogos+e+Sociólogas+Brasileiras-+bionota+sobre+Guaraci+Adeodato+Alves+de+Souza+-+Projeto+SBS+Memória.+São+Paulo:+Sociedade+Brasileira+de+Sociologia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Sociólogos+e+Sociólogas+Brasileiras-+bionota+sobre+Guaraci+Adeodato+Alves+de+Souza+-+Projeto+SBS+Memória.+São+Paulo:+Sociedade+Brasileira+de+Sociologia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Sociólogos+e+Sociólogas+Brasileiras-+bionota+sobre+Guaraci+Adeodato+Alves+de+Souza+-+Projeto+SBS+Memória.+São+Paulo:+Sociedade+Brasileira+de+Sociologia">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>MENEZES, M. ; MOTTA, ALDA BRITTO DA. <b>A Velhice: Olhares das Pessoas Idosas e suas Famílias</b>. 2020. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+Velhice:+Olhares+das+Pessoas+Idosas+e+suas+Famílias&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+Velhice:+Olhares+das+Pessoas+Idosas+e+suas+Famílias">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+Velhice:+Olhares+das+Pessoas+Idosas+e+suas+Famílias">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>PEREIRA, Carla ; SOUZA, Cláudio André ; ARANTES, Rafael de Aguiar. <b>Bahia: Cooperação Política e Governança de Crise no enfrentamento à Covid-19</b>. 2020. Publicação em site de associação científica - Associação Brasileira de Ciência Política<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Bahia:+Cooperação+Política+e+Governança+de+Crise+no+enfrentamento+à+Covid-19&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Bahia:+Cooperação+Política+e+Governança+de+Crise+no+enfrentamento+à+Covid-19">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Bahia:+Cooperação+Política+e+Governança+de+Crise+no+enfrentamento+à+Covid-19">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>POSSAS, M. T.; ALMEIDA, A. O. ; MATIAS, K.. <b>E dai?: Respostas à pandemia e gestão da morte no Brasil. Rio de Janeiro: Dilemas:Revista de Estudos de Conflito e Controle Social - Reflexões na pandemia</b>. 2020. Ensaio de análise de conjuntura<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=E+dai?:+Respostas+à+pandemia+e+gestão+da+morte+no+Brasil.+Rio+de+Janeiro:+Dilemas:Revista+de+Estudos+de+Conflito+e+Controle+Social+-+Reflexões+na+pandemia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=E+dai?:+Respostas+à+pandemia+e+gestão+da+morte+no+Brasil.+Rio+de+Janeiro:+Dilemas:Revista+de+Estudos+de+Conflito+e+Controle+Social+-+Reflexões+na+pandemia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=E+dai?:+Respostas+à+pandemia+e+gestão+da+morte+no+Brasil.+Rio+de+Janeiro:+Dilemas:Revista+de+Estudos+de+Conflito+e+Controle+Social+-+Reflexões+na+pandemia">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>REGATIERI, Ricardo Pagliuso. <b>Índia: sociedade, política e pandemia</b>. 2020. Tradução/Artigo<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Índia:+sociedade,+política+e+pandemia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Índia:+sociedade,+política+e+pandemia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Índia:+sociedade,+política+e+pandemia">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>SOARES, F. F. ; POSSAS, M. T.. <b>Prefácio. São Paulo</b>. 2020. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Prefácio.+São+Paulo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Prefácio.+São+Paulo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Prefácio.+São+Paulo">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CARVALHO, M. R. G.; ANDRESON, J.. <b>Ruth Landes e a Cidade das Mulheres. Savaldor</b>. 2019. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Ruth+Landes+e+a+Cidade+das+Mulheres.+Savaldor&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Ruth+Landes+e+a+Cidade+das+Mulheres.+Savaldor">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Ruth+Landes+e+a+Cidade+das+Mulheres.+Savaldor">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CIMADAMORE, A. ; IVO, Anete B.L. ; MIDAGLIA, C. ; BARRANTES, A.. <b>TMC: Casos e Interseccionalidades. Introducción [Parte II]. México: Siglo XXI editores</b>. 2019. Apresentação do Livro<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=TMC:+Casos+e+Interseccionalidades.+Introducción+[Parte+II].+México:+Siglo+XXI+editores&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=TMC:+Casos+e+Interseccionalidades.+Introducción+[Parte+II].+México:+Siglo+XXI+editores">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=TMC:+Casos+e+Interseccionalidades.+Introducción+[Parte+II].+México:+Siglo+XXI+editores">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CIMADAMORE, A. ; IVO, Anete B.L. ; MIDAGLIA, C. ; BARRANTES, A.. <b>Fundamentos y tendencias: Introducción [I Parte]. Mexico: Siglo XXI editores</b>. 2019. Apresentação do Livro<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Fundamentos+y+tendencias:+Introducción+[I+Parte].+Mexico:+Siglo+XXI+editores&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Fundamentos+y+tendencias:+Introducción+[I+Parte].+Mexico:+Siglo+XXI+editores">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Fundamentos+y+tendencias:+Introducción+[I+Parte].+Mexico:+Siglo+XXI+editores">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>DANTAS NETO, P. F. <b>Prefácio à Segunda Edição. Brasília / DF</b>. 2019. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Prefácio+à+Segunda+Edição.+Brasília+/+DF&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Prefácio+à+Segunda+Edição.+Brasília+/+DF">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Prefácio+à+Segunda+Edição.+Brasília+/+DF">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>GUIMARAES, I. B. <b>Caderno CRH, v. 32, Nº 85. Salvador: CRH/EDUFBA</b>. 2019. Edição de Revista<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Caderno+CRH,+v.+32,+Nº+85.+Salvador:+CRH/EDUFBA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Caderno+CRH,+v.+32,+Nº+85.+Salvador:+CRH/EDUFBA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Caderno+CRH,+v.+32,+Nº+85.+Salvador:+CRH/EDUFBA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>GUIMARAES, I. B. <b>Caderno CRH, v. 32, Nº 86. Salvador: CRH/EDUFBA</b>. 2019. Edição de Revista<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Caderno+CRH,+v.+32,+Nº+86.+Salvador:+CRH/EDUFBA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Caderno+CRH,+v.+32,+Nº+86.+Salvador:+CRH/EDUFBA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Caderno+CRH,+v.+32,+Nº+86.+Salvador:+CRH/EDUFBA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>GUIMARÃES, IRACEMA BRANDÃO. <b>Caderno CRH, v. 32, Nº 87. Salvador: CRH/EDUFBA</b>. 2019. Edição de Revista<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Caderno+CRH,+v.+32,+Nº+87.+Salvador:+CRH/EDUFBA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Caderno+CRH,+v.+32,+Nº+87.+Salvador:+CRH/EDUFBA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Caderno+CRH,+v.+32,+Nº+87.+Salvador:+CRH/EDUFBA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>IVO, Anete B. L. <b>Discurso em Homenagem ao Sociólogo Francisco de Oliveira. Salvador: Site do XVI Encontro Nacional da ABET</b>. 2019. Discurso de Homenagem<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Discurso+em+Homenagem+ao+Sociólogo+Francisco+de+Oliveira.+Salvador:+Site+do+XVI+Encontro+Nacional+da+ABET&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Discurso+em+Homenagem+ao+Sociólogo+Francisco+de+Oliveira.+Salvador:+Site+do+XVI+Encontro+Nacional+da+ABET">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Discurso+em+Homenagem+ao+Sociólogo+Francisco+de+Oliveira.+Salvador:+Site+do+XVI+Encontro+Nacional+da+ABET">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>Muniz, J.O. ; PAES-MACHADO, Eduardo. <b>Policiamento. Rio de Janeiro: Dicionário de favelas Marielle Franco</b>. 2019. Painel<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Policiamento.+Rio+de+Janeiro:+Dicionário+de+favelas+Marielle+Franco&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Policiamento.+Rio+de+Janeiro:+Dicionário+de+favelas+Marielle+Franco">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Policiamento.+Rio+de+Janeiro:+Dicionário+de+favelas+Marielle+Franco">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>CAMARA, A. S. <b>Prefácio. Salvador</b>. 2018. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Prefácio.+Salvador&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Prefácio.+Salvador">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Prefácio.+Salvador">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CARVALHO, M. R. G.; FERRARI, R. ; SAMPAIO, ; JESUS, G. S.. <b>A Urgência de Interagir com o Outro. Salvador</b>. 2018. Prefácio, Pósfacio/Prefácio<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+Urgência+de+Interagir+com+o+Outro.+Salvador&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+Urgência+de+Interagir+com+o+Outro.+Salvador">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+Urgência+de+Interagir+com+o+Outro.+Salvador">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>DANTAS NETO, P. F. <b>Pela política de volta aos seus postos: espantar fantasmas, evitar esquinas. São Paulo: Site Gramsci e o Brasil</b>. 2018. Artigo em publicação eletrônica<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Pela+política+de+volta+aos+seus+postos:+espantar+fantasmas,+evitar+esquinas.+São+Paulo:+Site+Gramsci+e+o+Brasil&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Pela+política+de+volta+aos+seus+postos:+espantar+fantasmas,+evitar+esquinas.+São+Paulo:+Site+Gramsci+e+o+Brasil">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Pela+política+de+volta+aos+seus+postos:+espantar+fantasmas,+evitar+esquinas.+São+Paulo:+Site+Gramsci+e+o+Brasil">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>DANTAS NETO, P. F. <b>De luta e de labuta: em memória do político Waldir Pires. Salvador: site Bahia em Pauta</b>. 2018. Artigo em publicação eletrônica<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=De+luta+e+de+labuta:+em+memória+do+político+Waldir+Pires.+Salvador:+site+Bahia+em+Pauta&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=De+luta+e+de+labuta:+em+memória+do+político+Waldir+Pires.+Salvador:+site+Bahia+em+Pauta">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=De+luta+e+de+labuta:+em+memória+do+político+Waldir+Pires.+Salvador:+site+Bahia+em+Pauta">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>DANTAS NETO, P. F. <b>Sobre mimetismo e carlifilia. Salvador: site Outra Bahia</b>. 2018. Artigo em publicação eletrônica<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Sobre+mimetismo+e+carlifilia.+Salvador:+site+Outra+Bahia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Sobre+mimetismo+e+carlifilia.+Salvador:+site+Outra+Bahia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Sobre+mimetismo+e+carlifilia.+Salvador:+site+Outra+Bahia">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>DANTAS NETO, P. F. <b>ACM Neto: no fio da navalha. Salvador: site Outra Bahia</b>. 2018. Artigo em publicação eletrônica<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ACM+Neto:+no+fio+da+navalha.+Salvador:+site+Outra+Bahia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ACM+Neto:+no+fio+da+navalha.+Salvador:+site+Outra+Bahia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ACM+Neto:+no+fio+da+navalha.+Salvador:+site+Outra+Bahia">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>DANTAS NETO, P. F. <b>Segurança pública e política: sem Marielle, mas com franqueza. São Paulo: Site Gramsci e o Brasil</b>. 2018. Artigo em publicação eletrônica<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Segurança+pública+e+política:+sem+Marielle,+mas+com+franqueza.+São+Paulo:+Site+Gramsci+e+o+Brasil&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Segurança+pública+e+política:+sem+Marielle,+mas+com+franqueza.+São+Paulo:+Site+Gramsci+e+o+Brasil">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Segurança+pública+e+política:+sem+Marielle,+mas+com+franqueza.+São+Paulo:+Site+Gramsci+e+o+Brasil">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>DANTAS NETO, P. F. <b>Rotas eleitorais para uma democracia em trânsito. São Paulo: Roda Democrática</b>. 2018. Artigo em publicação eletrônica<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Rotas+eleitorais+para+uma+democracia+em+trânsito.+São+Paulo:+Roda+Democrática&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Rotas+eleitorais+para+uma+democracia+em+trânsito.+São+Paulo:+Roda+Democrática">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Rotas+eleitorais+para+uma+democracia+em+trânsito.+São+Paulo:+Roda+Democrática">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>9. &nbsp;</td> <td>DANTAS NETO, P. F. <b>A ÉTICA DO TEMPO. São Paulo: Roda Democrática</b>. 2018. Artigo em publicação eletrônica<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+ÉTICA+DO+TEMPO.+São+Paulo:+Roda+Democrática&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+ÉTICA+DO+TEMPO.+São+Paulo:+Roda+Democrática">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+ÉTICA+DO+TEMPO.+São+Paulo:+Roda+Democrática">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>10. &nbsp;</td> <td>DANTAS NETO, P. F. <b>Política como vislumbre e vocação: rotas e rotas para navegar em águas já turvas. São Paulo: Roda Democrática</b>. 2018. Artigo em publicação eletrônica<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Política+como+vislumbre+e+vocação:+rotas+e+rotas+para+navegar+em+águas+já+turvas.+São+Paulo:+Roda+Democrática&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Política+como+vislumbre+e+vocação:+rotas+e+rotas+para+navegar+em+águas+já+turvas.+São+Paulo:+Roda+Democrática">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Política+como+vislumbre+e+vocação:+rotas+e+rotas+para+navegar+em+águas+já+turvas.+São+Paulo:+Roda+Democrática">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>11. &nbsp;</td> <td>DANTAS NETO, P. F. <b>Factoide golpista na ressaca da Copa. São Paulo: Roda Democrática</b>. 2018. Artigo em publicação eletrônica<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Factoide+golpista+na+ressaca+da+Copa.+São+Paulo:+Roda+Democrática&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Factoide+golpista+na+ressaca+da+Copa.+São+Paulo:+Roda+Democrática">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Factoide+golpista+na+ressaca+da+Copa.+São+Paulo:+Roda+Democrática">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>12. &nbsp;</td> <td>DANTAS NETO, P. F. <b>Democratas não alinhados diante da urna. São Paulo: Site Gramsci e o Brasil</b>. 2018. Artigo em publicação eletrônica<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Democratas+não+alinhados+diante+da+urna.+São+Paulo:+Site+Gramsci+e+o+Brasil&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Democratas+não+alinhados+diante+da+urna.+São+Paulo:+Site+Gramsci+e+o+Brasil">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Democratas+não+alinhados+diante+da+urna.+São+Paulo:+Site+Gramsci+e+o+Brasil">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>13. &nbsp;</td> <td>GUIMARAES, I. B. <b>Caderno CRH, V. 31, N. 82. Salvador: EDUFBA/CRH</b>. 2018. Edição de Revista<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Caderno+CRH,+V.+31,+N.+82.+Salvador:+EDUFBA/CRH&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Caderno+CRH,+V.+31,+N.+82.+Salvador:+EDUFBA/CRH">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Caderno+CRH,+V.+31,+N.+82.+Salvador:+EDUFBA/CRH">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>14. &nbsp;</td> <td>GUIMARAES, I. B. <b>Caderno CRH, V. 31, N. 83. Salvador: EDUFBA/CRH</b>. 2018. Edição de Revista<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Caderno+CRH,+V.+31,+N.+83.+Salvador:+EDUFBA/CRH&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Caderno+CRH,+V.+31,+N.+83.+Salvador:+EDUFBA/CRH">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Caderno+CRH,+V.+31,+N.+83.+Salvador:+EDUFBA/CRH">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>15. &nbsp;</td> <td>GUIMARAES, I. B. <b>Caderno CRH, V. 31, N. 84. Salvador: EDUFBA/CRH</b>. 2018. Edição de Revista<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Caderno+CRH,+V.+31,+N.+84.+Salvador:+EDUFBA/CRH&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Caderno+CRH,+V.+31,+N.+84.+Salvador:+EDUFBA/CRH">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Caderno+CRH,+V.+31,+N.+84.+Salvador:+EDUFBA/CRH">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>16. &nbsp;</td> <td>HITA, MARIA GABRIELA; GLEDHILL, J. ; COLLINS, J. ; FRUGOLI, H. ; PERELMAN, M. D. ; MONTEIRO, R. ; MUNIZ, J. ; CECCHETO, F. R. ; NUITJEN, M. ; KOSTER, M. ; VRIES, P. ; CABRAL, A. A. C.. <b>Atores em Disputas Urbanas (organizado por John Gledhill e Maria Gabriela Hita. Salvador: Cadernos CRH</b>. 2018. organizado por John Gledhill e Maria Gabriela Hita. Salvador: Cadernos CRH, 2018 (Dossiê em periódico<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Atores+em+Disputas+Urbanas+(organizado+por+John+Gledhill+e+Maria+Gabriela+Hita.+Salvador:+Cadernos+CRH&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Atores+em+Disputas+Urbanas+(organizado+por+John+Gledhill+e+Maria+Gabriela+Hita.+Salvador:+Cadernos+CRH">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Atores+em+Disputas+Urbanas+(organizado+por+John+Gledhill+e+Maria+Gabriela+Hita.+Salvador:+Cadernos+CRH">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>17. &nbsp;</td> <td>JESUS, M. G. M. ; POSSAS, M. T.. <b>Apresentação. São Paulo</b>. 2018. Prefácio, Pósfacio/Apresentação<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Apresentação.+São+Paulo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Apresentação.+São+Paulo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Apresentação.+São+Paulo">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>18. &nbsp;</td> <td>VIANNA, L. J. W. ; DANTAS NETO, P. F.. <b>Diálogos gramscianos sobre o Brasil atual. Brasilia - DF</b>. 2018. Prefácio, Pósfacio/Apresentação<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Diálogos+gramscianos+sobre+o+Brasil+atual.+Brasilia+-+DF&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Diálogos+gramscianos+sobre+o+Brasil+atual.+Brasilia+-+DF">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Diálogos+gramscianos+sobre+o+Brasil+atual.+Brasilia+-+DF">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>BARRETO, P. C. S. <b>Raça, racismo e genética em debates científicos e controvérsias sociais. Salvador</b>. 2017. Prefácio, Pósfacio/Apresentação<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Raça,+racismo+e+genética+em+debates+científicos+e+controvérsias+sociais.+Salvador&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Raça,+racismo+e+genética+em+debates+científicos+e+controvérsias+sociais.+Salvador">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Raça,+racismo+e+genética+em+debates+científicos+e+controvérsias+sociais.+Salvador">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>DANTAS NETO, P. F. <b>Crise, reforma política e as âncoras da democracia brasileira. São Paulo: Roda Democrática</b>. 2017. Artigo em publicação eletrônica<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Crise,+reforma+política+e+as+âncoras+da+democracia+brasileira.+São+Paulo:+Roda+Democrática&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Crise,+reforma+política+e+as+âncoras+da+democracia+brasileira.+São+Paulo:+Roda+Democrática">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Crise,+reforma+política+e+as+âncoras+da+democracia+brasileira.+São+Paulo:+Roda+Democrática">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>GUIMARAES, I. B.; BASTOS, C. M. A.. <b>Caderno CRH, V. 30, N. 79. Salvador-BA: CRH/EDUFBA</b>. 2017. Edição de Revista<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Caderno+CRH,+V.+30,+N.+79.+Salvador-BA:+CRH/EDUFBA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Caderno+CRH,+V.+30,+N.+79.+Salvador-BA:+CRH/EDUFBA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Caderno+CRH,+V.+30,+N.+79.+Salvador-BA:+CRH/EDUFBA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GUIMARAES, I. B.; BASTOS, C. M. A.. <b>Caderno CRH, V. 30, N. 80. Salvador: CRH/EDUFBA</b>. 2017. Edição de Revista<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Caderno+CRH,+V.+30,+N.+80.+Salvador:+CRH/EDUFBA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Caderno+CRH,+V.+30,+N.+80.+Salvador:+CRH/EDUFBA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Caderno+CRH,+V.+30,+N.+80.+Salvador:+CRH/EDUFBA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>GUIMARAES, I. B.; BASTOS, C. M. A.. <b>Caderno CRH, V. 30, N. 81. Salvador-BA: CRH/EDUFBA</b>. 2017. Edição de Revista<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Caderno+CRH,+V.+30,+N.+81.+Salvador-BA:+CRH/EDUFBA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Caderno+CRH,+V.+30,+N.+81.+Salvador-BA:+CRH/EDUFBA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Caderno+CRH,+V.+30,+N.+81.+Salvador-BA:+CRH/EDUFBA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>SILVA, J. B.; AMORIM, H. J. D.. <b>Orelha do Livro. São Carlos</b>. 2017. Prefácio, Pósfacio/Apresentação<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Orelha+do+Livro.+São+Carlos&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Orelha+do+Livro.+São+Carlos">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Orelha+do+Livro.+São+Carlos">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>TAROUCO, G. S. ; DANTAS NETO, P. F.. <b>ELITES, PARTIDOS E COMPETIÇÃO POLÍTICA: BRASIL E ARGENTINA - Introdução a Dossiê Temático. Salvador</b>. 2017. Prefácio, Pósfacio/Introdução<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=ELITES,+PARTIDOS+E+COMPETIÇÃO+POLÍTICA:+BRASIL+E+ARGENTINA+-+Introdução+a+Dossiê+Temático.+Salvador&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=ELITES,+PARTIDOS+E+COMPETIÇÃO+POLÍTICA:+BRASIL+E+ARGENTINA+-+Introdução+a+Dossiê+Temático.+Salvador">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=ELITES,+PARTIDOS+E+COMPETIÇÃO+POLÍTICA:+BRASIL+E+ARGENTINA+-+Introdução+a+Dossiê+Temático.+Salvador">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2017 até 2021
+<br>Data de processamento: 29/03/2021 11:05:57<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:leofn3@gmail.com">leofn3@gmail.com</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

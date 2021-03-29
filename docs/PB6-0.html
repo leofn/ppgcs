@@ -1,0 +1,175 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Relatório de Pordutividade - Prof Permanente do PPGCS - 2017-2021</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Relatório de Pordutividade - Prof Permanente do PPGCS - 2017-2021</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Resumos publicados em anais de congressos'}, 
+series: [{data: [[2017,
+4],
+[2018,
+5],
+[2019,
+2]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Resumos publicados em anais de congressos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 11<br>
+                    
+                    
+                    <div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>Gledhiil, J. ; HITA, M. G.. <b>Showing the politics of hate in Brazil</b>. Em: Brazilian Politics, Policies and Citezenship: Anthropological perspectives on current challenges, 2019, Nidjmegen. International Conference Programme: Brazilian Politics, Policies and Citezenship: Anthropological perspectives on current challenges, 2019. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Showing+the+politics+of+hate+in+Brazil&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Showing+the+politics+of+hate+in+Brazil">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Showing+the+politics+of+hate+in+Brazil">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>HITA, M. G.; GLEDHILLL, J.. <b>Os desafios da etnografia colaborativa</b>. Em: VII Congresso da APA, 2019, Lisboa. VII Congresso da APA, 2019. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Os+desafios+da+etnografia+colaborativa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Os+desafios+da+etnografia+colaborativa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Os+desafios+da+etnografia+colaborativa">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GARCIA, A. L. J. C. R. ; NASCIMENTO, L. F. ; AVELHAN, L. L. ; FECHINE, V. M. R.. <b>A abordagem midiática sobre a integração local de refugiados no Brasil</b>. Em: IX Seminário Nacional da Cátedra Sérgio Vieira de Mello ? ACNUR e III Conferência Latino-Americana sobre Refúgio, Migração e Apatridia, 2018, Paraná. REVISTA BRASILEIRA DE DIREITO INTERNACIONAL. Curitiba: UFPR, v. 9, 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+abordagem+midiática+sobre+a+integração+local+de+refugiados+no+Brasil&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+abordagem+midiática+sobre+a+integração+local+de+refugiados+no+Brasil">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+abordagem+midiática+sobre+a+integração+local+de+refugiados+no+Brasil">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>HITA, MARIA GABRIELA. <b>Identidades, Resistencia e Cooptacão na Cidade Mais Negra do Brasil</b>. Em: LASA 2018/ Latin American Studies in a Globalized World, 2018, Barcelona. LASA 2018, 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Identidades,+Resistencia+e+Cooptacão+na+Cidade+Mais+Negra+do+Brasil&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Identidades,+Resistencia+e+Cooptacão+na+Cidade+Mais+Negra+do+Brasil">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Identidades,+Resistencia+e+Cooptacão+na+Cidade+Mais+Negra+do+Brasil">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>HITA, MARIA GABRIELA; GLEDHILL, J.. <b>El Odio, la violencia y la política</b>. Em: 56 Congreso Internacional de Americanistas, 2018, Salamanca. 56 Congreso Internacional de Americanistas, 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=El+Odio,+la+violencia+y+la+política&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=El+Odio,+la+violencia+y+la+política">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=El+Odio,+la+violencia+y+la+política">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>HITA, MARIA GABRIELA; GLEDHILL, J. E.. <b>A política do ódio no Brasil</b>. Em: 40 anos do CES: A imaginação do futuro. Coloquio em homenagem a Boaventura Santos, 2018, Coimbra. 40 anos do CES: A imaginação do futuro, 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+política+do+ódio+no+Brasil&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+política+do+ódio+no+Brasil">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+política+do+ódio+no+Brasil">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>REGATIERI, Ricardo Pagliuso. <b>Max Horkheimer and the Unbridled Capitalism</b>. Em: XIX ISA World Congress of Sociology, 2018, Toronto. Book of Abstracts accepted for presentation at the XIX ISA World Congress of Sociology. Toronto: International Sociological Association (ISA), p. 791-791, 2018. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Max+Horkheimer+and+the+Unbridled+Capitalism&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Max+Horkheimer+and+the+Unbridled+Capitalism">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Max+Horkheimer+and+the+Unbridled+Capitalism">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>GUIMARAES, I. B.; Nascimento, Simone. <b>O ACESSO À CIDADE, OS DIREITOS COLETIVOS E AS POTENCIALIDADES DOS AGENTES LOCAIS - SEGUNDA ETAPA</b>. Em: Congresso UFBA, 2017, Salvador. UFBA 2017 - CONGRESSO. Salvador: EDUFBA, v. 1, p. 917-918, 2017. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+ACESSO+À+CIDADE,+OS+DIREITOS+COLETIVOS+E+AS+POTENCIALIDADES+DOS+AGENTES+LOCAIS+-+SEGUNDA+ETAPA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+ACESSO+À+CIDADE,+OS+DIREITOS+COLETIVOS+E+AS+POTENCIALIDADES+DOS+AGENTES+LOCAIS+-+SEGUNDA+ETAPA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+ACESSO+À+CIDADE,+OS+DIREITOS+COLETIVOS+E+AS+POTENCIALIDADES+DOS+AGENTES+LOCAIS+-+SEGUNDA+ETAPA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>GUIMARAES, I. B.; Viana, Alessandra. <b>TRABALHO: O ACESSO À CIDADE, NO CONTEXTO DOS DIREITOS E CIDADANIA</b>. Em: Congresso UFBA, 2017, Salvador. UFBA 2017 - CONGRESSO. Salvador: EDUFBA, v. 1, p. 916-916, 2017. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=TRABALHO:+O+ACESSO+À+CIDADE,+NO+CONTEXTO+DOS+DIREITOS+E+CIDADANIA&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=TRABALHO:+O+ACESSO+À+CIDADE,+NO+CONTEXTO+DOS+DIREITOS+E+CIDADANIA">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=TRABALHO:+O+ACESSO+À+CIDADE,+NO+CONTEXTO+DOS+DIREITOS+E+CIDADANIA">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>HITA, MARIA GABRIELA; GLEDHILL, J.. <b>Movimentos sociais, partidos políticos y luchas contra la exclusión urbana:Brasil después del Golpe</b>. Em: xxxv Congreso internacional de LASA: Diálogos y Saberes, 2017, Lima. digital. Site do evento. Lima, v. 1, 2017. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Movimentos+sociais,+partidos+políticos+y+luchas+contra+la+exclusión+urbana:Brasil+después+del+Golpe&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Movimentos+sociais,+partidos+políticos+y+luchas+contra+la+exclusión+urbana:Brasil+después+del+Golpe">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Movimentos+sociais,+partidos+políticos+y+luchas+contra+la+exclusión+urbana:Brasil+después+del+Golpe">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>IVO, Anete B. L. <b>A transnacionalização da Sociologia: a racionalização da pesquisa, atores e recepção do conhecimento</b>. Em: 18º Congreso Nacional de Sociologia, 2017, Brasilia. 18º Congreso Nacional de Sociologia. Brasilia: Sociedade Brasileira de Sociologia, v. 01, 2017. <br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+transnacionalização+da+Sociologia:+a+racionalização+da+pesquisa,+atores+e+recepção+do+conhecimento&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+transnacionalização+da+Sociologia:+a+racionalização+da+pesquisa,+atores+e+recepção+do+conhecimento">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+transnacionalização+da+Sociologia:+a+racionalização+da+pesquisa,+atores+e+recepção+do+conhecimento">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2017 até 2021
+<br>Data de processamento: 29/03/2021 11:05:57<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:leofn3@gmail.com">leofn3@gmail.com</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              

@@ -1,0 +1,189 @@
+
+                <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf8"><meta name="Generator" content="scriptLattes"><title>Relatório de Pordutividade - Prof Permanente do PPGCS - 2017-2021</title><link rel="stylesheet" href="css/scriptLattes.css" type="text/css"><link rel="stylesheet" type="text/css" href="css/jquery.dataTables.css"><link rel="stylesheet" type="text/css" href="css/dataTables.colVis.min.css"><script type="text/javascript" charset="utf8" src="js/jquery.min.js"></script><script type="text/javascript" charset="utf8" src="js/jquery.dataTables.min.js"></script><script type="text/javascript" charset="utf8" src="js/dataTables.colVis.min.js"></script><script src="http://professor.ufabc.edu.br/~jesus.mena/sorttable.js"></script></head><body><div id="header2"> <button onClick="history.go(-1)">Voltar</button><h2>Relatório de Pordutividade - Prof Permanente do PPGCS - 2017-2021</h2></div>
+                
+        <script type="text/javascript" src="./jquery.min.js"></script>
+        <!--
+        <script type="text/javascript" src="./highcharts.js"></script>
+        <script type="text/javascript" src="./exporting.js"></script>
+        <script type="text/javascript" src="./drilldown.js"></script>
+        -->
+
+        <script src="http://code.highcharts.com/highcharts.js"></script>
+        <script src="http://code.highcharts.com/modules/drilldown.js"></script>
+        <script src="http://code.highcharts.com/modules/exporting.js"></script>
+
+        <script type="text/javascript">
+        // Load the fonts
+        Highcharts.createElement('link', {
+           href: 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700',
+           rel: 'stylesheet',
+           type: 'text/css'
+        }, null, document.getElementsByTagName('head')[0]);
+
+        Highcharts.theme = {
+   colors: ["#118D95", "#8085e9", "#8d4654", "#7798BF", "#aaeeee", "#ff0066", "#eeaaee", "#2b908f", "#90ee7e", "#55BF3B", "#DF5353", "#7798BF", "#aaeeee"],
+   chart: {
+      backgroundColor: null,
+      style: {
+         fontFamily: "'Source Sans Pro', 'sans-serif'"
+      }
+   },
+   title: {
+      style: {
+         color: 'black',
+         fontSize: '16px',
+         fontWeight: 'bold'
+      }
+   },
+   subtitle: {
+      style: {
+         color: 'black'
+      }
+   },
+   tooltip: {
+      borderWidth: 0
+   },
+   legend: {
+      itemStyle: {
+         fontWeight: 'bold',
+         fontSize: '13px'
+      }
+   },
+   xAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   yAxis: {
+      labels: {
+         style: {
+            color: '#6e6e70'
+         }
+      }
+   },
+   plotOptions: {
+      series: {
+         shadow: true
+      },
+      candlestick: {
+         lineColor: '#404048'
+      },
+      map: {
+         shadow: false
+      }
+   },
+
+   // Highstock specific
+   navigator: {
+      xAxis: {
+         gridLineColor: '#D0D0D8'
+      }
+   },
+   rangeSelector: {
+      buttonTheme: {
+         fill: 'white',
+         stroke: '#C0C0C8',
+         'stroke-width': 1,
+         states: {
+            select: {
+               fill: '#D0D0D8'
+            }
+         }
+      }
+   },
+   scrollbar: {
+      trackBorderColor: '#C0C0C8'
+   },
+
+   // General
+   background2: '#E0E0E8'
+};
+
+        Highcharts.setOptions(Highcharts.theme);
+        $(function () {
+            $('#container').highcharts({subtitle: {text: ''}, 
+title: {text: 'Trabalhos completos publicados em anais de congressos'}, 
+series: [{data: [[2017,
+5],
+[2018,
+1],
+[2019,
+8],
+[2020,
+3]], 
+name: 'Total'}], 
+yAxis: {labels: {overflow: 'justify'}, 
+title: {text: 'Quantidade', 
+align: 'middle'}, 
+stackLabels: {enabled: true, 
+format: '{stack}'}, 
+min: 0}, 
+chart: {type: 'column', 
+height: 300}, 
+tooltip: {pointFormat: '<span style="color:{series.color}">\u25CF</span> {series.name}: <b>{point.y}</b><br/>', 
+shared: false, 
+headerFormat: '<span style="font-size: 10px">{point.key}{point.stack}{series.stack}</span><br/>', 
+valueSuffix: '', 
+enabled: true}, 
+credits: {enabled: false}, 
+plotOptions: {column: {stacking: null}, 
+series: {shadow: 'true'}, 
+bar: {dataLabels: {enabled: false}}}, 
+xAxis: {type: 'category', 
+title: {text: ''}}, 
+legend: {layout: 'vertical', 
+align: 'right', 
+enabled: false, 
+borderWidth: 1, 
+backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor || '#FFFFFF'), 
+verticalAlign: 'middle', 
+shadow: true}});
+        });
+        </script>
+        
+                <h3>Trabalhos completos publicados em anais de congressos</h3> <br>
+                    <div id="container" style="min-width: 310px; max-width: 1920px; height: 300; margin: 0"></div>
+                    Número total de itens: 17<br>
+                    
+                    
+                    <div id="dv-year-2020"><h3 class="year">2020</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARANTES, Rafael de Aguiar; PEREIRA, CARLA GALVÃO. <b>GOVERNANÇA METROPOLITANA E O ENFRENTAMENTO À COVID-19 NA REGIÃO METROPOLITANA DE SALVADOR: cooperação e conflito nas relações intergovernamentais</b>. Em: <font color=#330066>XVI Seminario Internacional de la Red Iberoamericana de Investigadores sobre Globalización y Territorio</font>, 2020.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=GOVERNANÇA+METROPOLITANA+E+O+ENFRENTAMENTO+À+COVID-19+NA+REGIÃO+METROPOLITANA+DE+SALVADOR:+cooperação+e+conflito+nas+relações+intergovernamentais&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=GOVERNANÇA+METROPOLITANA+E+O+ENFRENTAMENTO+À+COVID-19+NA+REGIÃO+METROPOLITANA+DE+SALVADOR:+cooperação+e+conflito+nas+relações+intergovernamentais">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=GOVERNANÇA+METROPOLITANA+E+O+ENFRENTAMENTO+À+COVID-19+NA+REGIÃO+METROPOLITANA+DE+SALVADOR:+cooperação+e+conflito+nas+relações+intergovernamentais">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>POSSAS, M. T.; REBOUCAS, A. C. ; OLIVEIRA, C. F. S. ; SOUZA, M.. <b>Estratégias locais de sobrevivência e adaptações cotidianas à morte violenta em Salvador, Bahia</b>. Em: <font color=#330066>44° Encontro Anual da ANPOCS</font>, 2020.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Estratégias+locais+de+sobrevivência+e+adaptações+cotidianas+à+morte+violenta+em+Salvador,+Bahia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Estratégias+locais+de+sobrevivência+e+adaptações+cotidianas+à+morte+violenta+em+Salvador,+Bahia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Estratégias+locais+de+sobrevivência+e+adaptações+cotidianas+à+morte+violenta+em+Salvador,+Bahia">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>TONCHE, J. ; POSSAS, M. T.. <b>Nas Malhas da Judicialização da 'Violência de Gênero' contra as Mulheres: Etnografias, Afetos, Avanços e Retrocessos em contexto Sul-Americano</b>. Em: <font color=#330066>44° Encontro Anual da ANPOCS</font>, 2020.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Nas+Malhas+da+Judicialização+da+'Violência+de+Gênero'+contra+as+Mulheres:+Etnografias,+Afetos,+Avanços+e+Retrocessos+em+contexto+Sul-Americano&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Nas+Malhas+da+Judicialização+da+'Violência+de+Gênero'+contra+as+Mulheres:+Etnografias,+Afetos,+Avanços+e+Retrocessos+em+contexto+Sul-Americano">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Nas+Malhas+da+Judicialização+da+'Violência+de+Gênero'+contra+as+Mulheres:+Etnografias,+Afetos,+Avanços+e+Retrocessos+em+contexto+Sul-Americano">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2019"><h3 class="year">2019</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARANTES, Rafael de Aguiar. <b>Mercantilização dos espaços públicos? As feiras gastronômicas e culturais em Salvador</b>. Em: <font color=#330066>XIX Congresso Brasileiro de Sociologia</font>, v. 1, p. 1-1, 2019.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Mercantilização+dos+espaços+públicos?+As+feiras+gastronômicas+e+culturais+em+Salvador&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Mercantilização+dos+espaços+públicos?+As+feiras+gastronômicas+e+culturais+em+Salvador">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Mercantilização+dos+espaços+públicos?+As+feiras+gastronômicas+e+culturais+em+Salvador">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>ARANTES, Rafael de Aguiar; PEREIRA, Carla. <b>Poder Político e Desenvolvimento Urbano em Salvador</b>. Em: <font color=#330066>Congresso Observatório das Metrópoles 20 anos - As metrópoles e o direito à cidade: dilemas</font>, v. 1, p. 1788-1802, 2019.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Poder+Político+e+Desenvolvimento+Urbano+em+Salvador&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Poder+Político+e+Desenvolvimento+Urbano+em+Salvador">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Poder+Político+e+Desenvolvimento+Urbano+em+Salvador">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CAMARA, A. S.; MOTA, Gabriela M. ; CARVALHO, Caíque Geovane O. de. <b>O Imaginário de uma nação no cinema norte-americano</b>. Em: <font color=#330066>19 Congresso Brasileiro de Sociologia</font>, 2019.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+Imaginário+de+uma+nação+no+cinema+norte-americano&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+Imaginário+de+uma+nação+no+cinema+norte-americano">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+Imaginário+de+uma+nação+no+cinema+norte-americano">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>GUIMARAES, I. B.; SANTOS, L. M. S.. <b>Fronteiras da participação de jovens em relação ao estudo e ao trabalho</b>. Em: <font color=#330066>XVI Encontro Nacional ABET</font>, v. 1, p. 1-22, 2019.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Fronteiras+da+participação+de+jovens+em+relação+ao+estudo+e+ao+trabalho&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Fronteiras+da+participação+de+jovens+em+relação+ao+estudo+e+ao+trabalho">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Fronteiras+da+participação+de+jovens+em+relação+ao+estudo+e+ao+trabalho">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>GUIMARÃES, IRACEMA BRANDÃO; SILVA, A. S.. <b>Ressignificação de Práticas Comunitárias: um relato de pesquisa</b>. Em: <font color=#330066>XXXII Congreso Internacional ALAS Perú 2019: Hacia un Nuevo Horizonte de Sentido Histórico de una Civilización de Vida.</font>, v. XXXII, p. 1-20, 2019.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Ressignificação+de+Práticas+Comunitárias:+um+relato+de+pesquisa&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Ressignificação+de+Práticas+Comunitárias:+um+relato+de+pesquisa">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Ressignificação+de+Práticas+Comunitárias:+um+relato+de+pesquisa">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>6. &nbsp;</td> <td>IVO, Anete B.L. <b>A noção de governança na sociologia: um campo teórico em construção</b>. Em: <font color=#330066>19º Congresso Brasileiro de Sociologia</font>, v. 01, p. 01-27, 2019.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+noção+de+governança+na+sociologia:+um+campo+teórico+em+construção&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+noção+de+governança+na+sociologia:+um+campo+teórico+em+construção">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+noção+de+governança+na+sociologia:+um+campo+teórico+em+construção">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>7. &nbsp;</td> <td>NASCIMENTO, L. F.; ALECRIM, Mylena ; CERQUEIRA, P. S. ; CARVALHO, I. C. P.. <b>?Barrigas cheias, cabeças vazias?: a controvérsia pública em torno do Programa Bolsa Família no jornal o Estado de S. Paulo (2003-2014)</b>. Em: <font color=#330066>19º Congresso Brasileiro de Sociologia</font>, 2019.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=?Barrigas+cheias,+cabeças+vazias?:+a+controvérsia+pública+em+torno+do+Programa+Bolsa+Família+no+jornal+o+Estado+de+S.+Paulo+(2003-2014)&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=?Barrigas+cheias,+cabeças+vazias?:+a+controvérsia+pública+em+torno+do+Programa+Bolsa+Família+no+jornal+o+Estado+de+S.+Paulo+(2003-2014)">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=?Barrigas+cheias,+cabeças+vazias?:+a+controvérsia+pública+em+torno+do+Programa+Bolsa+Família+no+jornal+o+Estado+de+S.+Paulo+(2003-2014)">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>8. &nbsp;</td> <td>NASCIMENTO, L. F.; JESUS, J. P. ; OLIVEIRA, J. B. ; DURAES, B. J. R.. <b>O caso Uber no brasil: a cartografia de uma controvérsia</b>. Em: <font color=#330066>19º Congresso Brasileiro de Sociologia</font>, 2019.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=O+caso+Uber+no+brasil:+a+cartografia+de+uma+controvérsia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=O+caso+Uber+no+brasil:+a+cartografia+de+uma+controvérsia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=O+caso+Uber+no+brasil:+a+cartografia+de+uma+controvérsia">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2018"><h3 class="year">2018</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>SOARES, F. ; POSSAS, M. T.. <b>A justiça da polícia: justificativas de membros da Polícia Militar da Bahia para mortes de civis em operações policiais</b>. Em: <font color=#330066>42°Encontro Anual da ANPOCS</font>, 2018.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+justiça+da+polícia:+justificativas+de+membros+da+Polícia+Militar+da+Bahia+para+mortes+de+civis+em+operações+policiais&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+justiça+da+polícia:+justificativas+de+membros+da+Polícia+Militar+da+Bahia+para+mortes+de+civis+em+operações+policiais">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+justiça+da+polícia:+justificativas+de+membros+da+Polícia+Militar+da+Bahia+para+mortes+de+civis+em+operações+policiais">busca Google</a> ]          </font><br></td></tr>
+            </table></div><div id="dv-year-2017"><h3 class="year">2017</h3> <table>
+            <tr valign="top"><td>1. &nbsp;</td> <td>ARANTES, Rafael de Aguiar. <b>Interreconhecimento, diversidade e autossegregação: formas de sociabilidade nos espaços públicos de Salvador</b>. Em: <font color=#330066>18º Congresso Brasileiro de Sociologia: Que sociologias fazemos? Interfaces com os contextos locais</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Interreconhecimento,+diversidade+e+autossegregação:+formas+de+sociabilidade+nos+espaços+públicos+de+Salvador&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Interreconhecimento,+diversidade+e+autossegregação:+formas+de+sociabilidade+nos+espaços+públicos+de+Salvador">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Interreconhecimento,+diversidade+e+autossegregação:+formas+de+sociabilidade+nos+espaços+públicos+de+Salvador">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>2. &nbsp;</td> <td>CAMARA, A. S.; BAQUEIRO, F.. <b>A crise da criatividade do artista e a crise da arte em Fellini: Oito e Meio (1963) e Ensaio de Orquestra (1978)</b>. Em: <font color=#330066>18 Congresso Brasileiro de Sociologia</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=A+crise+da+criatividade+do+artista+e+a+crise+da+arte+em+Fellini:+Oito+e+Meio+(1963)+e+Ensaio+de+Orquestra+(1978)&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=A+crise+da+criatividade+do+artista+e+a+crise+da+arte+em+Fellini:+Oito+e+Meio+(1963)+e+Ensaio+de+Orquestra+(1978)">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=A+crise+da+criatividade+do+artista+e+a+crise+da+arte+em+Fellini:+Oito+e+Meio+(1963)+e+Ensaio+de+Orquestra+(1978)">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>3. &nbsp;</td> <td>CUNHA, A. C. G. ; IVO, Anete B. L.. <b>Direitos em conflito: a ambivalência do Direito, entre reconhecimento e distribuição.no Programa Bolsa Familia</b>. Em: <font color=#330066>18º Congresso Brasileiro de Sociologia</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Direitos+em+conflito:+a+ambivalência+do+Direito,+entre+reconhecimento+e+distribuição.no+Programa+Bolsa+Familia&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Direitos+em+conflito:+a+ambivalência+do+Direito,+entre+reconhecimento+e+distribuição.no+Programa+Bolsa+Familia">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Direitos+em+conflito:+a+ambivalência+do+Direito,+entre+reconhecimento+e+distribuição.no+Programa+Bolsa+Familia">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>4. &nbsp;</td> <td>HITA, MARIA GABRIELA. <b>Sede de participação na cidade e uso da rua no Bairro da Paz</b>. Em: <font color=#330066>41 Encontro Anual da ANPOCS</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q=Sede+de+participação+na+cidade+e+uso+da+rua+no+Bairro+da+Paz&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query=Sede+de+participação+na+cidade+e+uso+da+rua+no+Bairro+da+Paz">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q=Sede+de+participação+na+cidade+e+uso+da+rua+no+Bairro+da+Paz">busca Google</a> ]          </font><br></td></tr>
+            
+            <tr valign="top"><td>5. &nbsp;</td> <td>JESUS, M. G. M. ; POSSAS, M. T.. <b>'O que o policial disse tá dito!': a produção da 'verdade policial' nos casos de tráfico de drogas em São Paulo</b>. Em: <font color=#330066>41° Encontro anual da ANPOCS</font>, 2017.<br>         <font size=-1>          [ <a href="http://scholar.google.com/scholar?hl=en&lr=&q='O+que+o+policial+disse+tá+dito!':+a+produção+da+'verdade+policial'+nos+casos+de+tráfico+de+drogas+em+São+Paulo&btnG=Search">cita&ccedil;&otilde;es Google Scholar</a> |            <a href="http://academic.research.microsoft.com/Search?query='O+que+o+policial+disse+tá+dito!':+a+produção+da+'verdade+policial'+nos+casos+de+tráfico+de+drogas+em+São+Paulo">cita&ccedil;&otilde;es Microsoft Acad&ecirc;mico</a> |            <a href="http://www.google.com/search?btnG=Google+Search&q='O+que+o+policial+disse+tá+dito!':+a+produção+da+'verdade+policial'+nos+casos+de+tráfico+de+drogas+em+São+Paulo">busca Google</a> ]          </font><br></td></tr>
+            </table></div>
+                    </table>
+                <br><p><br>(*) Relatório criado com produções desde 2017 até 2021
+<br>Data de processamento: 29/03/2021 11:05:57<br>         <div id="footer">         Relatório gerado por <a href="http://scriptlattes.sourceforge.net/">scriptLattes V8.11</a>.         Os resultados estão sujeitos a falhas devido a inconsistências no preenchimento dos CVs Lattes. E-mail de contato: <a href="mailto:leofn3@gmail.com">leofn3@gmail.com</a>         </div> <script type="text/javascript">            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));            </script>            <script type="text/javascript">            try {              var pageTracker = _gat._getTracker("UA-5266248-1");              pageTracker._trackPageview();            } catch(err) {}            </script></body></html>
+              
